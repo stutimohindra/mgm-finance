@@ -1,0 +1,28 @@
+.HeaderMenuItems {
+  height: 18px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  background-color: #00799e;
+  height: auto;
+  padding-top: 28px;
+  padding-right: 57px;
+  display: table;
+	margin: 0 auto;
+}
+.Items {
+  padding-left: 52px;
+  height: auto;
+  display: table-cell;
+}
+.Menuitems {
+  list-style-type: none;
+  padding-left: 18px;
+  padding-right: 18px;
+  display: inline;
+}

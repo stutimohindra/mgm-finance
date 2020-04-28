@@ -1,0 +1,24 @@
+
+.Logos-Loan {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #475f67;
+}
+
+.FirstLogo {
+  display: inline-block;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.RemainingLogos {
+  align-items: center;
+  padding-left: 167px;
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+}

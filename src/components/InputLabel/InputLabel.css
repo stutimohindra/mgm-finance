@@ -1,0 +1,26 @@
+.input {
+  width: 307px;
+  height: 58px;
+  background-color: #ffffff;
+  margin: 8.3px;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+}
+
+::placeholder {
+  height: 22px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #999999;
+  padding-left: 14px;
+}
+

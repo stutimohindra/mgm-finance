@@ -1,0 +1,14 @@
+.Contact-us-rectangle {
+  height: 364px;
+  background-color: #475f67;
+  display: flex;
+  flex-direction: column;
+}
+
+.Line {
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  opacity: 0.12;
+  border: solid 1px #cdcdcd;
+}

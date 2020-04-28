@@ -1,0 +1,68 @@
+.Get-a-Loan {
+  width: 92px;
+  height: 23px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 25px;
+}
+
+.Get-a-Loan-Button {
+  width: 155px;
+  height: 42px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #f7c717, #f79b1c);
+  margin-left: 249px;
+  margin-top: 27px;
+  align-items: left;
+  cursor: pointer;
+}
+
+.EMI-Cal {
+  width: 184px;
+  height: 48px;
+  opacity: 0.33;
+  background-blend-mode: multiply;
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  cursor: pointer;
+  margin: 8.3px;
+  border: 0;
+}
+
+.EMI-Calculator-button-text {
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Loan-Eligibility-Cal {
+  height: 48px;
+  opacity: 0.33;
+  background-blend-mode: multiply;
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  cursor: pointer;
+  margin: 8.3px;
+  border: 0;
+}
+
+.Loan-Eligibility-Cal-button-text {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
