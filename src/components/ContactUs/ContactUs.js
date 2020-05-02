@@ -4,7 +4,7 @@ import './ContactUs.css';
 
 const ContactUs = () => {
   return (
-    <div className="Contact-us-rectangle">
+    <div id="Contact-us-rectangle">
       <Banner text="CONTACT US" name="Contact-us"></Banner>
       <Banner text="186, Powai Plaza A Premises,
       Hiranandani Gardens, Powai, Mumbai - 400076" name="Address"></Banner>
