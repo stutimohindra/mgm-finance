@@ -7,7 +7,7 @@ import CarouselItem from '../CarouselItem/CarouselItem';
 
 const CustomerReview = () => {
   return (
-    <div className="customer-review">
+    <div id="customer-review">
       <img
         src={comma}
         alt="1"

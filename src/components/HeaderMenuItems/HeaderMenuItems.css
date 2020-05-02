@@ -37,6 +37,10 @@
   display: table-cell;
 }
 
+.hyperLink {
+  color: white;
+  text-decoration: none;
+}
 @media screen and (max-width: 480px) {
   .Items {
     padding-left: 0px;

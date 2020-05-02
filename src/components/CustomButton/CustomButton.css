@@ -1,7 +1,4 @@
 .Get-a-Loan {
-  width: 92px;
-  height: 23px;
-  font-family: HelveticaNeue;
   font-size: 18px;
   font-weight: 500;
   font-stretch: normal;
@@ -10,7 +7,6 @@
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  padding-left: 25px;
 }
 
 .Get-a-Loan-Button {
@@ -65,4 +61,10 @@
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+  .Get-a-Loan-Button {
+    width: 126px;
+  }
 }

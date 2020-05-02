@@ -13,9 +13,19 @@ const HeaderMenuItems = () => {
       </div>
       <div className="HeaderMenuItems">
         <ul className="Menuitems">
-          <li className="Items">Explore Loans</li>
-          <li className="Items">Services</li>
-          <li className="Items">About Us</li>
+          <li className="Items">
+            <a className="hyperLink" href="#Emi-calculator">
+              Explore Loans
+            </a>
+          </li>
+          <li className="Items">
+            <a className="hyperLink" href="#ServicesContainer">
+              Services
+            </a>
+          </li>
+          <li className="Items"><a className="hyperLink" href="#customer-review">
+            About Us
+            </a></li>
         </ul>
       </div>
     </div >

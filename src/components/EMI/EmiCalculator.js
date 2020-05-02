@@ -22,7 +22,7 @@ const EmiCalculator = () => {
   }
 
   return (
-    <div className="Emi-calculator">
+    <div id="Emi-calculator">
       <Banner name="Know-what-it-takes" text="Know what it takes"></Banner>
       <div className="Buttons-container">
         <button className="EMI-Cal" onClick={calculateEMI} style={{ 'cursor': getEmiButtonStyle() }}>

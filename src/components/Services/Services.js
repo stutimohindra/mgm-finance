@@ -9,7 +9,7 @@ import educationLoanLogo from '../../images/educationLoanLogo.svg'
 
 const Services = () => {
   return (
-    <div >
+    <div id="ServicesContainer">
       <Banner text="What are you looking for ?" name="What-are-you-looking"></Banner>
       <div className="ImageContainer">
         <ImageContainer
