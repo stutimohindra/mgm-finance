@@ -19,22 +19,21 @@
 }
 
 .DropDownMenu {
-  display: none;
+  /* display: none; */
+  padding-top: 24px;
+  padding-right: 57px;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 480px) {
-  .HeaderContainer {
-    display: flex;
-    flex-direction: row;
+  .Items {
+    padding-left: 0px;
   }
 
-  .DropDownMenu {
-    display: inline;
-  }
-
-  .HeaderMenuItems {
-    display: none;
-  }
+  /* .DropDownMenu {
+    margin-right: auto;
+    margin-left: 17%;
+  } */
 
   .Logo {
     padding: 0;
