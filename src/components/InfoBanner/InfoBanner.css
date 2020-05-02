@@ -1,31 +1,18 @@
 .Rectangle {
+  background-color: #00799e;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.InfoContainer {
+  display: flex;
   flex-wrap: wrap;
-  background-color: #00799e;
-  padding-left: 57px;
-}
-
-.Logo {
-  background-color: #00799e;
-  width: 217px;
-  height: 55px;
-  object-fit: contain;
-  padding-right: 265px;
-  padding-top: 24px;
-  padding-bottom: 20px;
-}
-
-.BankLogo {
-  flex: 1 0 0;
-  width: 455px;
-  height: 224px;
 }
 
 .BankLogoContainer {
   margin-top: 166px;
-  display: flex;
-  flex-direction: row;
 }
 
 .BannerContainer {

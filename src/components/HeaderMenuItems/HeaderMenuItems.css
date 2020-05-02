@@ -1,6 +1,11 @@
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #00799e;
+}
+
 .HeaderMenuItems {
-  height: 18px;
-  font-family: HelveticaNeue;
   font-size: 16px;
   font-weight: 300;
   font-stretch: normal;
@@ -9,20 +14,41 @@
   letter-spacing: normal;
   color: #ffffff;
   background-color: #00799e;
-  height: auto;
   padding-top: 28px;
   padding-right: 57px;
-  display: table;
-	margin: 0 auto;
+}
+
+.DropDownMenu {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .HeaderContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .DropDownMenu {
+    display: inline;
+  }
+
+  .HeaderMenuItems {
+    display: none;
+  }
+
+  .Logo {
+    padding: 0;
+  }
+}
+
+.Logo {
+  padding-right: 265px;
+  padding-top: 24px;
+  padding-bottom: 20px;
+  padding-left: 57px;
 }
 .Items {
   padding-left: 52px;
   height: auto;
   display: table-cell;
-}
-.Menuitems {
-  list-style-type: none;
-  padding-left: 18px;
-  padding-right: 18px;
-  display: inline;
 }
