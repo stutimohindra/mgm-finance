@@ -42,20 +42,20 @@
   flex: 1;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
-/* .Emi-value-loan {
-  padding-left: 90px; */
-/* } */
+.Emi-value-loan {
+  width: 307px;
+}
 
-/* .Emi-value-rate { */
-/* padding-left: 50px; */
-/* } */
+.Emi-value-rate {
+  width: 307px;
+}
 
-/* .Emi-value-tenure { */
-/* padding-left: 30px; */
-/* } */
+.Emi-value-tenure {
+  width: 307px;
+}
 
 .Payable {
   padding-top: 5px;
