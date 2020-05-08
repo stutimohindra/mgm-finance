@@ -1,6 +1,10 @@
+.ServicesContainer {
+  display: flex;
+  flex-direction: row;
+}
 .ImageContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-bottom: 44px;
 }

@@ -17,6 +17,7 @@ const InfoBanner = () => {
         </div>
         <div className="BankLogoContainer">
           <img
+            style={{ 'width': '100%' }}
             src={bankLogo}
             alt="1"
           ></img>

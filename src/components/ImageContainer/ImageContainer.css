@@ -17,7 +17,7 @@
 
 .RemainingLogos {
   align-items: center;
-  padding-left: 167px;
+  /* padding-left: 167px; */
   padding-top: 48px;
   display: flex;
   flex-direction: column;

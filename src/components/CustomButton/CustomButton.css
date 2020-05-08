@@ -12,6 +12,7 @@
 .Get-a-Loan-Button {
   width: 155px;
   height: 42px;
+  border: none;
   border-radius: 4px;
   background-image: linear-gradient(to bottom, #f7c717, #f79b1c);
   margin-left: 249px;
@@ -65,6 +66,13 @@
 
 @media screen and (max-width: 480px) {
   .Get-a-Loan-Button {
-    width: 126px;
+    margin-left: 0;
+  }
+  .We-will-help-you-mak{
+    padding-left: 0;
+    text-align: center;
+  }
+  .Getting-loans-made-e{
+    padding-left: 0;
   }
 }
