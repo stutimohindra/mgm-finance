@@ -109,6 +109,8 @@
 }
 
 .Address {
+  width: 820px;
+  margin: 0 auto;
   overflow: hidden;
   padding-top: 53px;
   padding-bottom: 53px;
@@ -117,7 +119,6 @@
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
-  line-height: 0.72;
   letter-spacing: normal;
   color: #b5d2db;
 }
