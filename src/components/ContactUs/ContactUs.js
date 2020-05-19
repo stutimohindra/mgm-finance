@@ -17,7 +17,7 @@ const ContactUs = () => {
       <Banner text="Email: sales.mgmfinance@gmail.com" name="Email">
       </Banner>
       <div className="Line"></div>
-      <Banner text="Copyright 2016 . All Rights Reserved. Terms & Conditions" name="Copyright"></Banner>
+      <Banner text="Copyright 2020 . All Rights Reserved. Terms & Conditions" name="Copyright"></Banner>
     </div>
   )
 }

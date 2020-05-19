@@ -36,21 +36,33 @@ const EmiCalculator = () => {
       </div>
       <div className="Input-items">
         <input
+          style={{ 'fontSize': '25px' ,'alignItems':'center'}}
           type="number"
+          onInput={(e) => {
+            e.target.value = Math.max(0, parseInt(e.target.value)).toString().slice(0, 7)
+          }}
           placeholder="Loan Amount"
           className="input"
           value={loanAmount}
           onChange={e => setLoanAmount(e.target.value)}
-          maxLength="7" />
+          maxlength="7" />
         <input
+          style={{ 'fontSize': '25px' }}
           type="number"
+          onInput={(e) => {
+            e.target.value = Math.max(0, parseInt(e.target.value)).toString().slice(0, 2)
+          }}
           placeholder="Interest Rate (%)"
           className="input"
           value={interest}
           onChange={e => setInterest(e.target.value)}
           maxLength="2" />
         <input
+          style={{ 'fontSize': '25px' }}
           type="number"
+          onInput={(e) => {
+            e.target.value = Math.max(0, parseInt(e.target.value)).toString().slice(0, 2)
+          }}
           placeholder="Tenure (in years)"
           className="input"
           value={tenure}
